@@ -902,6 +902,21 @@ p {
     border-radius: 9999px;
     transition-duration: 300ms
 }
+.btn2 {
+    --text-opacity: 1;
+    color: #fff;
+    color: rgba(255, 255, 255, var(--text-opacity));
+    --bg-opacity: 1;
+    background-color: #3182ce;
+    background-color: rgba(49, 130, 206, var(--bg-opacity));
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    border-radius: 9999px;
+    transition-duration: 300ms
+
+}
 
 .btn:hover {
     --bg-opacity: 1;
